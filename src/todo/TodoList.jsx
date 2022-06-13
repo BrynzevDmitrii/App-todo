@@ -26,5 +26,4 @@ const TodoList = ({ item, toggleTask, removeTask }) => {
     </ul>
   );
 };
-
 export default TodoList;
