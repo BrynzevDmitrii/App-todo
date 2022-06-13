@@ -11,7 +11,7 @@ const TodoList = ({ item, toggleTask, removeTask }) => {
         >
           Выполнена
         </button>
-        <div className={item.isCheked ? styles["todo-line"] : styles["todo"]}>
+        <div data-testid="task" className={item.isCheked ? styles["todo-line"] : styles["todo"]}>
           {item.task}
         </div>
         <button
