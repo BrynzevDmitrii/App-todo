@@ -1,8 +1,8 @@
 import styles from "./TodoList.module.css";
 const TodoList = ({ item, toggleTask, removeTask }) => {
   return (
-    <ul key={item.id} className={styles["wrapper"]}>
-      <li>
+    <ul key={item.id} >
+      <li className={styles["wrapper"]}>
         <button
           onClick={() => {
             toggleTask(item.id);
