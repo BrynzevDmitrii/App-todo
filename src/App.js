@@ -31,7 +31,7 @@ setTasks ([...tasks.map((task)=>
   return (
     <div className={styles['App']}>
       <header>
-        <h1>Задачи:{tasks.length}</h1>
+        <h1>Задачи</h1>
       </header>
 
       <Form
